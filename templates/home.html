@@ -1,0 +1,22 @@
+<head>
+  <link rel="stylesheet" type="text/css" href="/static/styles/styles.css">
+</head>
+
+<h1 class="header">My Pets</h1>
+
+<form id="new-pet-form" action="/new-pet" method="POST" onsubmit="return validateForm()">
+	Name:
+  <input id="nameInput" name="name" />
+  <br>
+  Species:
+  <input id="speciesInput" name="species" />
+  <br>
+  Age:
+  <input id="ageInput" name="age" />
+  <br>
+  <input id="submit" type="submit" value="Submit" />
+</form>
+
+<a id="friends-list" href="/pets">Pets List</a>
+
+<script src="/static/scripts/home.js"></script>
