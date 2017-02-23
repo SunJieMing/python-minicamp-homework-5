@@ -12,7 +12,7 @@ function validateForm(){
 	var isAgeValidType = validateType(age, 'integer');
 	
 	if ( isNameValidType && isSpeciesValidType && isAgeValidType ){
-		console.log ( "name species age valid type);
+		console.log ( "name species age valid type");
 		validType = true;
 	}
 
@@ -21,6 +21,7 @@ function validateForm(){
 }
 
 function validateType( inputData, type ){
+	
 	return typeof( inputData) === type;
 }
 
