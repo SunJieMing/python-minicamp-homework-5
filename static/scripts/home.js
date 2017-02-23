@@ -1,4 +1,4 @@
-function validateForm( event ){
+function validateForm(){
 	
 	var validType = false;
 	var validLength = false;	
